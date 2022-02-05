@@ -1,0 +1,8 @@
+import React from 'react';
+import renderer from 'react-test-renderer';
+import {{{pascalCase name}}} from '../../source/{{pascalCase type}}/{{pascalCase name}}';
+
+it('should match snapshot', () => {
+  const tree = renderer.create(<{{pascalCase name}} />).toJSON();
+  expect(tree).toMatchSnapshot()
+});
