@@ -4,7 +4,7 @@ import { DummyComponent } from './components';
 function App() {
   return (
     <div className="App">
-      <DummyComponent/>
+      <DummyComponent />
     </div>
   );
 }
