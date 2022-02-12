@@ -1,8 +1,8 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
-import App from '../source';
+import App from 'src/App';
 
 test('renders learn react link', () => {
   const tree = renderer.create(<App />).toJSON();
-  expect(tree).toMatchSnapshot()
+  expect(tree).toMatchSnapshot();
 });
