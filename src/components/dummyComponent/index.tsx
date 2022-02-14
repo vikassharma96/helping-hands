@@ -17,7 +17,7 @@ const DummyComponent: React.FC = () => {
       >
         Fetch Todos
       </Button>
-      {todoData.todos.map((row, key) => (
+      {todoData.todos.map((row: any, key: number) => (
         <Row key={key}>{row.title}</Row>
       ))}
     </div>
