@@ -1,5 +1,5 @@
 import axios from 'axios';
-import { all, call, put, takeLatest } from 'redux-saga/effects';
+import { call, put, takeLatest } from 'redux-saga/effects';
 
 import { fetchTodoFailure, fetchTodoSuccess } from './actions';
 import { FETCH_TODO_REQUEST } from './actionTypes';
