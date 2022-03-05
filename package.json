@@ -10,6 +10,7 @@
     "eject": "react-scripts eject",
     "generate": "plop",
     "lint": "eslint src",
+    "pre-commit": "lint-staged",
     "prettier:fix": "prettier --write",
     "prettier:check": "prettier --check ."
   },
