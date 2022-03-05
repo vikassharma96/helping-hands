@@ -23,3 +23,6 @@ yarn-debug.log*
 yarn-error.log*
 
 .eslintcache
+__snapshots__
+coverage
+
