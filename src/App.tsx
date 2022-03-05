@@ -1,11 +1,12 @@
-import DummyScreen from './components/dummyComponent';
+import React from 'react';
+import HomeScreen from './screens/homeScreen';
 
-function App() {
+const App: React.FC = (props: any) => {
   return (
     <div className="App">
-      <DummyScreen />
+      <HomeScreen />
     </div>
   );
-}
+};
 
 export default App;
