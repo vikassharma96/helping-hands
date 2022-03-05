@@ -49,9 +49,6 @@
     "typescript": "^4.5.5",
     "web-vitals": "^2.1.4"
   },
-  "resolutions": {
-    "@mui/styled-engine": "npm:@mui/styled-engine-sc@latest"
-  },
   "lint-staged": {
     "src/*.{ts,tsx}": [
       "yarn prettier:fix",
