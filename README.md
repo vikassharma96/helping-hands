@@ -1,34 +1,52 @@
-# Getting Started with Create React App
+<p align="center">
+  <img width="230" height="120" src="./assets/logo.png"/>
+</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<div align="center">
+  
+  <a href="">![build status](https://github.com/vikassharma96/helping-hands/actions/workflows/build.yml/badge.svg)</a>
+ </div>
 
-## Available Scripts
+## About
 
-In the project directory, you can run:
+HelpingHands is an initiative to help the poor in need. We are creating a community that believes in helping each other can make the world a better place.
+We're on a mission to create an impact on human lives.
 
-### `npm run generate component`
+> **Give Your Big Hand Forever.**
+>
+> **We’re Helping Today. Helping Tomorrow.**
 
-Generates the files needed to create components/screens
+## Installation
 
-### `npm start`
+```bash
+$ npm install
+```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Starting with component
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+```bash
+$ npm run generate component
+```
 
-### `npm test`
+## Running the app
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```bash
+# development
+$ npm run start
+```
 
-### `npm run build`
+## Test
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```bash
+# unit tests
+$ npm run test
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# test coverage
+$ npm run test:cov
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Building the app
+
+```bash
+$ npm run build
+```
