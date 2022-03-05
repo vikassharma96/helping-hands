@@ -1,34 +1,22 @@
-# Getting Started with Create React App
+<p align="center">
+  <img src="./assets/logo.png"/>
+</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+  ![build status](https://github.com/vikassharma96/helping-hands/actions/workflows/build.yml/badge.svg)
+ </p>
 
-## Available Scripts
+![build status](https://github.com/vikassharma96/helping-hands/actions/workflows/build.yml/badge.svg)
 
-In the project directory, you can run:
+## About
 
-### `npm run generate component`
+HelpingHands is an initiative to help the poor in need. We are creting a community that believe in helping each other can make world better place.
+We're on a mission to help the humanity by creating a bridge between contributors and NGO's.
+We’re Helping Today. Helping Tommorow. Give Your Big Hand Forever
 
-Generates the files needed to create components/screens
+## Scripts
 
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+`npm run generate component`
+`npm start`
+`npm test`
+`npm run build`
