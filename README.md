@@ -25,7 +25,7 @@ $ npm install
 ## Starting with component
 
 ```bash
-$ npm run generate component
+$ npm run generate
 ```
 
 ## Running the app
