@@ -6,13 +6,11 @@ import footerBg from '../../assets/images/footerBg.jpg';
 const StyledBox = styled(Box)({
   display: 'flex',
   flexDirection: 'column',
-  minHeight: '100vh',
 });
 
 const BoxFooter = styled(Box)<{
   component: string;
 }>({
-  paddingTop: 3,
   marginTop: 'auto',
   backgroundImage: `url(${footerBg})`,
   backgroundSize: 'cover',
