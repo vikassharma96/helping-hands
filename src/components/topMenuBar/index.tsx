@@ -7,7 +7,7 @@ import {
   SignUpButton,
 } from './styledComponent';
 import './styles.css';
-import logo from '../../assets/logo.png';
+import logo from '../../assets/images/logo.png';
 
 const useCoreStyles = createTheme({
   typography: {

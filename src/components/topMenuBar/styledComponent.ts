@@ -1,32 +1,32 @@
 import Button from '@mui/material/Button';
 import { styled } from '@mui/material/styles';
-import { COLORS } from '../../constants/colors';
+import colors from 'src/theme/colors';
 
 const StyledMenuButton = styled(Button)({
-  color: COLORS.TAB_COLOR,
+  color: colors.tabColor,
   margin: '20px',
   '&:hover': {
-    color: COLORS.THEME_COLOR,
-    backgroundColor: COLORS.WHITE_COLOR,
+    color: colors.themeColor,
+    backgroundColor: colors.white,
   },
 });
 
 const LoginButton = styled(Button)({
-  backgroundColor: COLORS.WHITE_COLOR,
+  backgroundColor: colors.white,
   borderWidth: '1px',
-  borderColor: COLORS.TAB_COLOR,
-  color: COLORS.TAB_COLOR,
+  borderColor: colors.tabColor,
+  color: colors.tabColor,
   margin: '20px',
   '&:hover': {
-    borderColor: COLORS.TAB_COLOR,
-    backgroundColor: COLORS.WHITE_COLOR,
+    borderColor: colors.tabColor,
+    backgroundColor: colors.white,
   },
 });
 
 const SignUpButton = styled(Button)({
-  backgroundColor: COLORS.THEME_COLOR,
+  backgroundColor: colors.themeColor,
   '&:hover': {
-    backgroundColor: COLORS.THEME_COLOR,
+    backgroundColor: colors.themeColor,
   },
 });
 

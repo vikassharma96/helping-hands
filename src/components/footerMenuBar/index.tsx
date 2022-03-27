@@ -10,25 +10,7 @@ import {
   StyledTypography,
   StyledUL,
 } from './style';
-
-const footers = [
-  {
-    title: 'About',
-    description: ['Team', 'History', 'Contact us', 'Locations'],
-  },
-  {
-    title: 'Explore',
-    description: ['Browse', 'Donate', 'Volunteers', 'Sponsors'],
-  },
-  {
-    title: 'Social',
-    description: ['Contact', 'Instagram', 'Linkedin'],
-  },
-  {
-    title: 'Legal',
-    description: ['Privacy policy', 'Terms of use'],
-  },
-];
+import { footerBtns } from 'src/utils/constants';
 
 function Copyright(props: any) {
   return (
@@ -45,7 +27,7 @@ const FooterMenuBar: React.FC = () => {
         <BoxContainer component="footer">
           <StyledContainer component="footer">
             <Grid container spacing={4} justifyContent="space-evenly">
-              {footers.map((footer) => (
+              {footerBtns.map((footer) => (
                 <Grid item xs={6} sm={3} key={footer.title}>
                   <StyledTypography variant="h2">
                     {footer.title}
